@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import com.soft1841.oop.week1.MyButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.oop.week1.ButtonController"
+            prefHeight="800.0" prefWidth="2000.0">
+    <top>
+        <HBox spacing="100">
+             <AnchorPane>
+                 <ImageView AnchorPane.leftAnchor="100" AnchorPane.topAnchor="50" >
+                     <Image url="/img/b.png "/>
+                 </ImageView>
+                 <MyButton text="搜索框" AnchorPane.leftAnchor="200"  AnchorPane.topAnchor="50"  styleClass="a"/>
+                 <ImageView AnchorPane.leftAnchor="210" AnchorPane.topAnchor="56" >
+                     <Image url="/img/j.png"/>
+                 </ImageView>
+                 <ImageView AnchorPane.leftAnchor="278" AnchorPane.topAnchor="56" >
+                     <Image url="/img/k.png"/>
+                 </ImageView>
+                 <ImageView AnchorPane.leftAnchor="400" AnchorPane.topAnchor="54" >
+                     <Image url="/img/c.png"/>
+                 </ImageView>
+                 <Label text="会员码" AnchorPane.leftAnchor="390" AnchorPane.topAnchor="69" styleClass="b1"  />
+                 <MyButton text="热搜:" AnchorPane.leftAnchor="20" AnchorPane.topAnchor="100" styleClass="b"/>
+                 <MyButton text="宇宙项链" AnchorPane.leftAnchor="120" AnchorPane.topAnchor="100" />
+                 <MyButton text="吃鸡神器" AnchorPane.leftAnchor="220" AnchorPane.topAnchor="100" />
+                 <MyButton text="虎克" AnchorPane.leftAnchor="320" AnchorPane.topAnchor="100" />
+                 <MyButton text="姓氏手机壳" AnchorPane.leftAnchor="420" AnchorPane.topAnchor="100" />
+                 <ImageView AnchorPane.leftAnchor="50" AnchorPane.topAnchor="150">
+                     <Image url="/img/d.jpg   "/>
+                 </ImageView>
+
+             </AnchorPane>
+        </HBox>
+    </top>
+    <center>
+        <HBox spacing="550">
+            <AnchorPane>
+                <Label text="我的频道" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="50" styleClass="c" />
+                <MyButton text="全部频道" AnchorPane.topAnchor="0" AnchorPane.leftAnchor="400" />
+                <ImageView AnchorPane.topAnchor="50" AnchorPane.leftAnchor="100" >
+                    <Image url="/img/1.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="50" AnchorPane.leftAnchor="180" >
+                    <Image url="/img/2.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="50" AnchorPane.leftAnchor="260" >
+                     <Image url="/img/3.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="50" AnchorPane.leftAnchor="340" >
+                    <Image url="/img/4.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="50" AnchorPane.leftAnchor="420" >
+                    <Image url="/img/5.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="100" AnchorPane.leftAnchor="100" >
+                    <Image url="/img/6.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="100" AnchorPane.leftAnchor="180" >
+                    <Image url="/img/7.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="100" AnchorPane.leftAnchor="260" >
+                    <Image url="/img/8.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="90" AnchorPane.leftAnchor="330" >
+                    <Image url="/img/9.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="100" AnchorPane.leftAnchor="420" >
+                    <Image url="/img/10.png"/>
+                </ImageView>
+                <ImageView AnchorPane.topAnchor="150" AnchorPane.leftAnchor="50" >
+                    <Image url="/img/11.png "/>
+                </ImageView>
+
+            </AnchorPane>
+
+        </HBox>
+    </center>
+    <bottom>
+        <HBox >
+            <AnchorPane>
+            <ImageView AnchorPane.topAnchor="30" AnchorPane.leftAnchor="50" >
+                <Image url="/img/e.png"/>
+            </ImageView  >
+            <ImageView AnchorPane.topAnchor="30" AnchorPane.leftAnchor="145" >
+                <Image url="/img/f.png"/>
+            </ImageView>
+            <ImageView AnchorPane.topAnchor="30" AnchorPane.leftAnchor="240" >
+                <Image url="/img/g.png"/>
+            </ImageView>
+            <ImageView AnchorPane.topAnchor="30" AnchorPane.leftAnchor="340" >
+                <Image url="/img/h.png"/>
+            </ImageView>
+            <ImageView AnchorPane.topAnchor="30" AnchorPane.leftAnchor="440" >
+                <Image url="/img/i.png"/>
+            </ImageView>
+            </AnchorPane>
+        </HBox>
+    </bottom>
+
+</BorderPane>

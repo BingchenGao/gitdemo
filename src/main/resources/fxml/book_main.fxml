@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.soft1841.oop.jdbc.BookController">
+    <top>
+        <HBox alignment="CENTER" spacing="30">
+            <Button text="新增" onAction="#showAddBookStage"/>
+            <Button text="刷新" onAction="#reload"/>
+        </HBox>
+    </top>
+    <center>
+        <ScrollPane hbarPolicy="NEVER" vbarPolicy="AS_NEEDED">
+            <FlowPane fx:id="bookPane" hgap="20" vgap="20" prefWidth="1300">
+                <padding>
+                    <Insets top="20" left="20" right="20"/>
+                </padding>
+            </FlowPane>
+        </ScrollPane>
+    </center>
+
+</BorderPane>
